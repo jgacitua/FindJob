@@ -4,11 +4,16 @@
     <string name="app_name">FindJob</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
     <!--   *********Login**********          -->
      <string name="TxtIngresarLogin">Ingresar</string>
      <string name="TxtRegistrarseLogin">Registrarse</string>
      <string name="TxtInicioSesionLogin">Inicio Sesión</string>
      <string name="HintUsuarioLogin">Usuario</string>
      <string name="HintPasswordLogin">Contraseña</string>
+     
+     <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">Side Menu Tutorial</string>
 
 </resources>

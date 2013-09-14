@@ -2,7 +2,9 @@ package com.findjob;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class InterfazLogin extends Activity {
 
@@ -20,4 +22,10 @@ public class InterfazLogin extends Activity {
         return true;
     }
     
+    public void OnClickIngresar(View view)
+    {
+    	    Intent i = new Intent(this,InterfazMenu.class);
+		   startActivity(i);
+		   finish();
+    }
 }

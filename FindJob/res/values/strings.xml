@@ -4,5 +4,11 @@
     <string name="app_name">FindJob</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <!--   *********Login**********          -->
+     <string name="TxtIngresarLogin">Ingresar</string>
+     <string name="TxtRegistrarseLogin">Registrarse</string>
+     <string name="TxtInicioSesionLogin">Inicio Sesión</string>
+     <string name="HintUsuarioLogin">Usuario</string>
+     <string name="HintPasswordLogin">Contraseña</string>
 
 </resources>

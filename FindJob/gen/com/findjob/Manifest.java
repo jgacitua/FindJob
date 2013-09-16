@@ -9,6 +9,6 @@ package com.findjob;
 
 public final class Manifest {
     public static final class permission {
-        public static final String MAPS_RECEIVE="com.mapasplspancho.permission.MAPS_RECEIVE";
+        public static final String MAPS_RECEIVE="com.findjob.permission.MAPS_RECEIVE";
     }
 }

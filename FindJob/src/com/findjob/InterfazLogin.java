@@ -26,6 +26,5 @@ public class InterfazLogin extends Activity {
     {
     	    Intent i = new Intent(this,InterfazMenu.class);
 		   startActivity(i);
-		   finish();
     }
 }

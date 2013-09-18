@@ -9,34 +9,62 @@
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="1028dp"
-        android:layout_weight="0.51"
+        android:layout_height="340dp"
+        android:layout_weight="0.30"
         class="com.google.android.gms.maps.SupportMapFragment" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="moveCamera"
-            android:text="ir a UPV" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="animateCamera"
-            android:text="a mi posición" />
+            <EditText
+                android:id="@+id/edLatitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Latitud" />
 
-        <Button
-            android:id="@+id/button3"
+            <EditText
+                android:id="@+id/edLongitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Longitud" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="addMarker"
-            android:text="marcador" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnClickPosicionar"
+                android:text="Posicionar" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnClickResetear"
+                android:text="Resetear" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

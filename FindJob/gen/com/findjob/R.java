@@ -1018,17 +1018,19 @@ containing a value of this type.
         public static final int abs__up=0x7f04000b;
         public static final int button1=0x7f04002f;
         public static final int button2=0x7f040030;
-        public static final int button3=0x7f040032;
+        public static final int button3=0x7f040034;
         public static final int disableHome=0x7f040009;
+        public static final int edLatitud=0x7f040032;
+        public static final int edLongitud=0x7f040033;
         public static final int editText1=0x7f04002d;
         public static final int editText2=0x7f04002e;
         public static final int homeAsUp=0x7f040006;
         public static final int hybrid=0x7f040013;
-        public static final int listMenu=0x7f040033;
+        public static final int listMenu=0x7f040035;
         public static final int listMode=0x7f040002;
-        public static final int logo=0x7f040034;
+        public static final int logo=0x7f040036;
         public static final int map=0x7f040031;
-        public static final int menu_settings=0x7f040036;
+        public static final int menu_settings=0x7f040038;
         public static final int none=0x7f040010;
         public static final int normal=0x7f040001;
         public static final int satellite=0x7f040011;
@@ -1038,7 +1040,7 @@ containing a value of this type.
         public static final int tabMode=0x7f040003;
         public static final int terrain=0x7f040012;
         public static final int textView1=0x7f04002c;
-        public static final int titulo_fila_menu=0x7f040035;
+        public static final int titulo_fila_menu=0x7f040037;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }

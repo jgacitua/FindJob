@@ -12,6 +12,17 @@
      <string name="HintUsuarioLogin">Usuario</string>
      <string name="HintPasswordLogin">Contraseña</string>
      
+        <!--   *********Registrarse**********          -->
+     <string name="HitCorreoElectronicoRegistrarse">Correo electrónico</string>
+     <string name="HitClaveRegistrarse">Clave</string>
+     <string name="HitClaveRepetirRegistrarse">Repetir Clave</string>
+     <string name="TxtUtiliceLetrasRegistrarse">Utilice por lo menos una letra minúscula, un número, y siete caracteres.</string>
+     <string name="TxtIngresarDatos">Ingrese los datos correspondientes</string>
+     <string name="TxtEmpresario">Empresario</string>
+     <string name="TxtEmpleado">Empleado</string>
+     <string name="TxtSeleccionPerfil">Seleccióne su perfil</string>
+     <string name="BtnRegistrar">Registrar</string>
+     
      <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="title_activity_main">Side Menu Tutorial</string>

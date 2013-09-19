@@ -17,7 +17,7 @@
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edUsuarioLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -33,7 +33,7 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edContrasenaLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"

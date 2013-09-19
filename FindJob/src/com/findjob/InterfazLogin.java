@@ -27,4 +27,9 @@ public class InterfazLogin extends Activity {
     	    Intent i = new Intent(this,InterfazMenu.class);
 		   startActivity(i);
     }
+    public void OnClickRegistrarse(View view)
+    {
+    	    Intent i = new Intent(this,InterfazRegistrarse.class);
+		   startActivity(i);
+    }
 }

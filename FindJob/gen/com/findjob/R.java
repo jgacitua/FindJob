@@ -1020,19 +1020,25 @@ containing a value of this type.
         public static final int button2=0x7f040030;
         public static final int button3=0x7f040034;
         public static final int disableHome=0x7f040009;
+        public static final int edClaveRegristrarse=0x7f040038;
+        public static final int edContrasenaLogin=0x7f04002e;
+        public static final int edCorreoRegistrarse=0x7f040037;
         public static final int edLatitud=0x7f040032;
         public static final int edLongitud=0x7f040033;
-        public static final int editText1=0x7f04002d;
-        public static final int editText2=0x7f04002e;
+        public static final int edRepetirClaveRegistrarse=0x7f040039;
+        public static final int edUsuarioLogin=0x7f04002d;
         public static final int homeAsUp=0x7f040006;
         public static final int hybrid=0x7f040013;
         public static final int listMenu=0x7f040035;
         public static final int listMode=0x7f040002;
-        public static final int logo=0x7f040036;
+        public static final int logo=0x7f04003e;
         public static final int map=0x7f040031;
-        public static final int menu_settings=0x7f040038;
+        public static final int menu_settings=0x7f040040;
         public static final int none=0x7f040010;
         public static final int normal=0x7f040001;
+        public static final int radio0=0x7f04003c;
+        public static final int radio1=0x7f04003d;
+        public static final int radioGroup1=0x7f04003b;
         public static final int satellite=0x7f040011;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
@@ -1040,7 +1046,9 @@ containing a value of this type.
         public static final int tabMode=0x7f040003;
         public static final int terrain=0x7f040012;
         public static final int textView1=0x7f04002c;
-        public static final int titulo_fila_menu=0x7f040037;
+        public static final int textView2=0x7f040036;
+        public static final int textView3=0x7f04003a;
+        public static final int titulo_fila_menu=0x7f04003f;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1072,21 +1080,33 @@ containing a value of this type.
         public static final int activity_interfaz_mapa=0x7f030015;
         public static final int activity_interfaz_menu=0x7f030016;
         public static final int activity_interfaz_postulaciones=0x7f030017;
-        public static final int list_item_menu=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
+        public static final int activity_interfaz_registrarse=0x7f030018;
+        public static final int list_item_menu=0x7f030019;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
+        public static final int sherlock_spinner_item=0x7f03001b;
     }
     public static final class menu {
         public static final int interfaz_login=0x7f0b0000;
     }
     public static final class string {
+        public static final int BtnRegistrar=0x7f090030;
         public static final int HintPasswordLogin=0x7f090027;
         public static final int HintUsuarioLogin=0x7f090026;
+        public static final int HitClaveRegistrarse=0x7f090029;
+        public static final int HitClaveRepetirRegistrarse=0x7f09002a;
+        /**    *********Registrarse**********          
+         */
+        public static final int HitCorreoElectronicoRegistrarse=0x7f090028;
+        public static final int TxtEmpleado=0x7f09002e;
+        public static final int TxtEmpresario=0x7f09002d;
+        public static final int TxtIngresarDatos=0x7f09002c;
         /**    *********Login**********          
          */
         public static final int TxtIngresarLogin=0x7f090023;
         public static final int TxtInicioSesionLogin=0x7f090025;
         public static final int TxtRegistrarseLogin=0x7f090024;
+        public static final int TxtSeleccionPerfil=0x7f09002f;
+        public static final int TxtUtiliceLetrasRegistrarse=0x7f09002b;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abs__action_bar_home_description=0x7f090000;
@@ -1197,11 +1217,11 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f090018;
-        public static final int drawer_close=0x7f090029;
-        public static final int drawer_open=0x7f090028;
+        public static final int drawer_close=0x7f090032;
+        public static final int drawer_open=0x7f090031;
         public static final int hello_world=0x7f090021;
         public static final int menu_settings=0x7f090022;
-        public static final int title_activity_main=0x7f09002a;
+        public static final int title_activity_main=0x7f090033;
     }
     public static final class style {
         /** 

@@ -32,7 +32,8 @@
              </intent-filter>
         </activity>
          <activity android:name="InterfazMenu" ></activity>
-         <activity android:name="InterfazPostulaciones" ></activity>
+         <activity android:name="interfaz.trabajador.InterfazPostulaciones" ></activity>
+          <activity android:name="InterfazRegistrarse" ></activity>
          <activity android:name="interfaz.trabajador.InterfazMapa" ></activity>
           <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCBCcRKAVmY5eZLI6LAsMlDdW16OgqZ020"/>
     </application>

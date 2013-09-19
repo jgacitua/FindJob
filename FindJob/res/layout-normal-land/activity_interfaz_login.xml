@@ -6,90 +6,97 @@
     android:background="@drawable/fondo_portrait7"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="300dp"
-        android:text="@string/TxtInicioSesionLogin"
-        android:textAppearance="@style/EstiloNegrasText"
-        android:textSize="25sp" />
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="377dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edit_txt_style2"
-        android:ems="10"
-        android:hint="@string/HintUsuarioLogin"
-        android:textColor="#000000"
-        android:width="150dp" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edit_txt_style2"
-        android:ems="10"
-        android:hint="@string/HintPasswordLogin"
-        android:inputType="textPassword"
-        android:textColor="#000000"
-        android:width="150dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="135dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.01"
-            android:background="@drawable/btn_style_negro"
-            android:onClick="OnClickIngresar"
-            android:text="@string/TxtIngresarLogin"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/logotest_negro"
+            android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginRight="200dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.01"
-            android:background="@drawable/btn_style_naranja"
-            android:onClick="OnClickRegistrarse"
-            android:text="@string/TxtRegistrarseLogin"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        </LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="293dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/logotest_negro"
-        android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/TxtInicioSesionLogin"
+                    android:textAppearance="@style/EstiloNegrasText"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/edUsuarioLogin"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_txt_style2"
+                    android:ems="10"
+                    android:hint="@string/HintUsuarioLogin"
+                    android:textColor="#000000"
+                    android:width="150dp" />
+
+                <EditText
+                    android:id="@+id/edContrasenaLogin"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_txt_style2"
+                    android:ems="10"
+                    android:hint="@string/HintPasswordLogin"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="242dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:background="@drawable/btn_style_negro"
+                    android:onClick="OnClickIngresar"
+                    android:text="@string/TxtIngresarLogin"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:background="@drawable/btn_style_naranja"
+                    android:onClick="OnClickRegistrarse"
+                    android:text="@string/TxtRegistrarseLogin"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 

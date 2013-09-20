@@ -7,10 +7,14 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtNombreUsuarioMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Usuario"
+        android:textAppearance="@style/EstiloNegrasText"
+        android:textColor="#000000" />
 
     <LinearLayout
         android:layout_width="match_parent"

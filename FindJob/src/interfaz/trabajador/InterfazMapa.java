@@ -97,7 +97,7 @@ public class InterfazMapa extends FragmentActivity {
 			LatLng latLng = new LatLng(latitud, longitud);
 			mMap.addMarker(new MarkerOptions().position(latLng).title(
 					"latitud=" + latitud + " longitud=" + longitud)
-					.icon(BitmapDescriptorFactory.fromResource(R.drawable.writing)));
+					.icon(BitmapDescriptorFactory.fromResource(R.drawable.market_avion)));
 		} catch (IllegalArgumentException e) {
 			Toast.makeText(InterfazMapa.this, "Coordenadas no válidas",
 					Toast.LENGTH_SHORT).show();
@@ -131,7 +131,7 @@ public class InterfazMapa extends FragmentActivity {
 		LatLng latLng = new LatLng(latitud, longitud);
 		mMap.addMarker(new MarkerOptions().position(latLng).title(
 				"Madrid, España").snippet("Bangalore")    
-              .icon(BitmapDescriptorFactory.fromResource(R.drawable.writing)));
+              .icon(BitmapDescriptorFactory.fromResource(R.drawable.market_avion)));
 
 	}
 

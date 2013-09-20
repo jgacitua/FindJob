@@ -27,6 +27,9 @@
         android:background="@drawable/edit_txt_style2"
         android:ems="10"
         android:hint="@string/HintUsuarioLogin"
+        android:lines="1"
+        android:maxLines="1"
+        android:minLines="1"
         android:textColor="#000000"
         android:width="150dp" >
 
@@ -48,6 +51,9 @@
         android:ems="10"
         android:hint="@string/HintPasswordLogin"
         android:inputType="textPassword"
+        android:lines="1"
+        android:maxLines="1"
+        android:minLines="1"
         android:textColor="#000000"
         android:width="150dp" />
 
@@ -82,11 +88,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="140dp"
-        android:layout_height="128dp"
+        android:layout_width="85dp"
+        android:layout_height="149dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:background="@drawable/logotest_negro"
+        android:background="@drawable/logo_beta"
         android:orientation="vertical" >
 
     </LinearLayout>

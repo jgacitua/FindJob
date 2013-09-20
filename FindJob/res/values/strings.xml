@@ -19,12 +19,28 @@
      <string name="TxtUtiliceLetrasRegistrarse">Utilice por lo menos una letra minúscula, un número, y siete caracteres.</string>
      <string name="TxtIngresarDatos">Ingrese los datos correspondientes</string>
      <string name="TxtEmpresario">Empresario</string>
+     
      <string name="TxtEmpleado">Empleado</string>
      <string name="TxtSeleccionPerfil">Seleccióne su perfil</string>
+     <string name="TxtAceptarContrato">Al hacer clic en "Regístrate en Find Job", usted acepta nuestros Términos de servicio y política de privacidad .</string>
      <string name="BtnRegistrar">Registrar</string>
+     
+          <!--   *********Mis Datos Trabajador**********          -->
+     <string name="HintDescripcionTrabajador">Descripción como trabajador</string>
+     <string name="HitNombreCompleto">Nombre Completo</string>
+     <string name="HitRutTrabajador">Rut</string>
+      <string name="BtnSiguiente">Siguiente</string>
+     <string name="TxtMisDatos">Mis Datos</string>
+     
+       <!--   *********Mis Datos Trabajador**********          -->
+     <string name="HitRutEmpresa">Rut de la empresa</string>
+     <string name="HitRazonSocial">Razón social</string>
+     <string name="HitGiro">Giro empresarial</string>
+     
      
      <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="title_activity_main">Side Menu Tutorial</string>
+    
 
 </resources>

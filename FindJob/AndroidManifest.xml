@@ -35,6 +35,8 @@
          <activity android:name="interfaz.trabajador.InterfazPostulaciones" ></activity>
           <activity android:name="InterfazRegistrarse" ></activity>
          <activity android:name="interfaz.trabajador.InterfazMapa" ></activity>
+         <activity android:name="interfaz.trabajador.InterfazMisDatosTrabajador" ></activity>
+         <activity android:name="interfaz.empresario.InterfazMisDatosEmpresario" ></activity>
           <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCBCcRKAVmY5eZLI6LAsMlDdW16OgqZ020"/>
     </application>
 

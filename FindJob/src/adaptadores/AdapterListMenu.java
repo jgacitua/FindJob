@@ -31,6 +31,7 @@ public class AdapterListMenu extends BaseAdapter{
 	   @Override
 	   public long getItemId(int arg0) { return arg0; }
 	 
+	   public String getItemNomSector(int arg0) { return listadoitemsMenu.get(arg0).getNombre(); }
 	   @Override
 	   public View getView(int arg0, View arg1, ViewGroup arg2) {
 	      ContenedorView contenedor = null;

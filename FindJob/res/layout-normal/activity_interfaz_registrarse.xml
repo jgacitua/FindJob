@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo_portrait7"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/TxtIngresarDatos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/edCorreoRegistrarse"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_txt_style2"
+        android:ems="10"
+        android:hint="@string/HitCorreoElectronicoRegistrarse"
+        android:textColor="#000000"
+        android:width="150dp" >
+
+        <requestFocus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edClaveRegristrarse"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_txt_style2"
+        android:ems="10"
+        android:hint="@string/HitClaveRegistrarse"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/TxtUtiliceLetrasRegistrarse"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edRepetirClaveRegistrarse"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_txt_style2"
+        android:ems="10"
+        android:hint="@string/HitClaveRepetirRegistrarse"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/TxtSeleccionPerfil"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rdBtnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <RadioButton
+            android:id="@+id/rdBtnEmpleado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/TxtTrabajador"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdBtnEmpresario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtEmpresario"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:background="@drawable/btn_style_naranja"
+        android:onClick="OnClickRegistrar"
+        android:text="@string/BtnRegistrar"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.33"
+        android:text="@string/TxtAceptarContrato"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>

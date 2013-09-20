@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/transparentLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:minWidth="250dp"
+        android:layout_height="fill_parent"
+        android:background="@layout/shape_background_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewDialogInfoTitulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/shape_title_dialog"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textViewDialogInfoTexto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="5dp"
+            android:tag="linearLayout" >
+
+            <Button
+                android:id="@+id/buttonDialogAceptar"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@layout/button_dialog"
+                android:text="Aceptar"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:layout_marginRight="2dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonDialogCancelar"
+               android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@layout/button_dialog"
+                android:text="Cancelar"
+                android:layout_marginLeft="2dp"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

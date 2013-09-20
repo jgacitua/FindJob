@@ -20,7 +20,7 @@
      <string name="TxtIngresarDatos">Ingrese los datos correspondientes</string>
      <string name="TxtEmpresario">Empresario</string>
      
-     <string name="TxtEmpleado">Empleado</string>
+     <string name="TxtTrabajador">Trabajador</string>
      <string name="TxtSeleccionPerfil">Seleccióne su perfil</string>
      <string name="TxtAceptarContrato">Al hacer clic en "Regístrate en Find Job", usted acepta nuestros Términos de servicio y política de privacidad .</string>
      <string name="BtnRegistrar">Registrar</string>
@@ -36,6 +36,10 @@
      <string name="HitRutEmpresa">Rut de la empresa</string>
      <string name="HitRazonSocial">Razón social</string>
      <string name="HitGiro">Giro empresarial</string>
+     
+     <!--   *********Actividad Trabajador**********          -->
+     <string name="TxtActivdadTrabajador">Actividad Trabajador</string>
+     <string name="TxtArgumentoDeAgregarACT">Agrega una o varias actividades a las que te dedicas, estas serán relacionadas en el mapa para un mejor uso de búsqueda</string>
      
      
      <string name="drawer_open">Open navigation drawer</string>

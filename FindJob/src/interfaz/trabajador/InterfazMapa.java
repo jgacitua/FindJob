@@ -2,11 +2,9 @@ package interfaz.trabajador;
 
 import com.findjob.R;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.os.Bundle;
@@ -50,25 +48,12 @@ public class InterfazMapa extends FragmentActivity {
      {
     	 super.onCreate(savedInstanceState);
     	setContentView(R.layout.activity_interfaz_mapa);
-    	Marker source,destination; 
     	cargaGoogleMap();
 
 		etLatitud = (EditText) this.findViewById(R.id.edLatitud);
 		etLatitud.setText(String.valueOf(LATITUD_INICIAL));
 		etLongitud = (EditText) this.findViewById(R.id.edLongitud);
 		etLongitud.setText(String.valueOf(LONGITUD_INICIAL));
-//        mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap(); 
-//        source = mMap.addMarker(new MarkerOptions()
-//                .position(new LatLng(49.378,-0.3904))
-//                .title("MyHome")
-//                .snippet("Bangalore")    
-//                .icon(BitmapDescriptorFactory.fromResource(R.drawable.writing)));
-//
-//         destination= mMap.addMarker(new MarkerOptions()
-//                .position(new LatLng(49.333,-0.3904))
-//                .title("MapleBear Head Office")
-//                .snippet("Jayanager")
-//                .icon(BitmapDescriptorFactory.fromResource(R.drawable.writing)));
 //                mMap.setOnMarkerClickListener(new OnMarkerClickListener()
 //                {
 //

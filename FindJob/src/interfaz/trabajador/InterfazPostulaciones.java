@@ -3,7 +3,6 @@ package interfaz.trabajador;
 import android.app.Activity;
 import android.os.Bundle;
 import com.findjob.R;
-import com.findjob.R.layout;
 
 public class InterfazPostulaciones extends Activity {
 	@Override

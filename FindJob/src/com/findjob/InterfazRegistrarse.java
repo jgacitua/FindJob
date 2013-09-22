@@ -1,6 +1,6 @@
 package com.findjob;
 
-import interfaz.empresario.InterfazMisDatosEmpresario;
+import interfaz.empresa.InterfazMisDatosEmpresario;
 import interfaz.trabajador.InterfazMisDatosTrabajador;
 import android.app.Activity;
 import android.content.Intent;

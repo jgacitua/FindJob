@@ -1,4 +1,4 @@
-package interfaz.empresario;
+package interfaz.empresa;
 
 import android.app.Activity;
 import android.os.Bundle;

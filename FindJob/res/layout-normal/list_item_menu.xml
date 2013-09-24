@@ -6,11 +6,11 @@
 
 <ImageView
     android:id="@+id/logo"
-    android:layout_width="128px"
-    android:layout_height="128px"
+    android:layout_width="128dp"
+    android:layout_height="128dp"
     android:layout_alignParentLeft="true"
     android:layout_marginLeft="20dp"
-    android:padding="5px"
+    android:padding="5dp"
     android:src="@drawable/escribir_datos" />
  
     <TextView
